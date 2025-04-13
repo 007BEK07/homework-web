@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Менің портфолиом</title>
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="about_style.css" />
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">BAKE TAU</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Негізгі бет</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">Мен туралы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Жобалар</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Байланыс</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mt-5 pt-5">
+    
+    <section id="about" class="row align-items-center py-5">
+      <div class="col-md-6">
+        <img src="images/bekzhan.jpg" alt="Менің суретім" class="img-fluid rounded-circle w-50">
+      </div>
+      <div class="col-md-6">
+        <h1>Сәлем, мен Бекжан</h1>
+        <h2 class="text-primary">Саяхатшы Турист </h2>
+        <p>Мен 5-жылдам астам тәжірбиесі бар саяхатшы турист гид. Алматының әсем табиғатын елге таныстырушы</p>
+        <p>Қазіргі уақытта шет елдің азаматтарына еліміздің көрікті жерлерін таныстырумен айналысамын</p>
+      </div>
+    </section>
+
+    
+    <section id="projects" class="py-5 bg-light">
+      <h2 class="text-center mb-5">Менің саяхатқа шығару аймағым</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+           
+            <div class="card-body">
+              <h5 class="card-title">Шарын Шатқалы </h5>
+              <p class="card-text">Шарын мемлекеттік ұлттық табиғи паркі – табиғи кешен. ҚР ауыл шаруашылығы министрлігінің орман шаруашылығы және жануарлар дүниесі Комитетіне қарайтын, республикалық маңызы бар табиғат қорғау және ғылыми мекемелік мәртебесі бар. Ұлттық парк 1964 жылдан бері республикалық маңызы бар табиғат ескерткіші ретінде қорғалып келді.</p>
+              <a href="#" class="btn btn-primary">Толығырақ</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            
+            <div class="card-body">
+              <h5 class="card-title">Қайыңды Көлі </h5>
+              <p class="card-text">Қайыңды — Алматы облысындағы сел көшкіні жылжығанның нәтижесінде бір ғасыр астам бұрын пайда болған көл. Алматыдан шығысқа қарай 280 шақырым жерде қарағайлы мен жапырақты ормандармен жабылған Күнгей Алатауында орналасқан. Жолаушының көз алдында біршама сюрреалистік көрініс тұрады: суға батқан кемелерге ұқсас Тянь-Шань шыршаларының діңгектері тура судың ішінен 15 метрге дейін көтерілгендей</p>
+              <a href="#" class="btn btn-primary">Толығырақ</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+           
+            <div class="card-body">
+              <h5 class="card-title">Шымбұлақ</h5>
+              <p class="card-text"> Шымбұлақ — Алматы маңындағы Іле Алатауы шатқалының 2510 метр биіктігінде орын тепкен тау-шаңғылық курорты. Талғар асуының бөктеріндегі бұл спорттық кешен 1954 жылдан бастап тау шаңғысы спортшыларының сүйікті орнына айналған. Алғашқыда бұл кешен кеңес тау шаңғышыларының олимпиадаға дайындық базасы ретінде құрылған.</p>
+              <a href="#" class="btn btn-primary">Толығырақ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    
+  </main>
+
+  <footer class="bg-primary text-white py-4">
+    <section id="contact" class="py-5">
+      <h2 class="text-center mb-5">Байланыс</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Аты-жөніңіз</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Электрондық пошта</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Хабарлама</label>
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Жіберу</button>
+          </form>
+          <div class="mt-4 text-center">
+            <p>Немесе әлеуметтік желілер арқылы байланысуға болады:</p>
+            <div class="social-links">
+              <a href="#" class="btn btn-outline-dark me-2"><i class="bi bi-instagram"></i> Instagram</a>
+              <a href="#" class="btn btn-outline-dark me-2"><i class="bi bi-tik tok"></i> Tik Tok</a>
+              <a href="#" class="btn btn-outline-dark"><i class="bi bi-telegram"></i> Telegram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container text-center">
+      <p>&copy; 2025 Менің портфолиом. Барлық құқықтар қорғалған.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

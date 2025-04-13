@@ -1,0 +1,68 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+#contact .form-control {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+
+footer {
+  background-color: #2c3e50 !important;
+}
+
+
+.social-links .btn {
+  padding: 8px 15px;
+}
+
+
+@media (max-width: 768px) {
+  #about {
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+  #about img {
+    margin-bottom: 30px;
+    max-width: 250px;
+  }
+}

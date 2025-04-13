@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.site-header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  top: 0;
+}
+
+main {
+  padding: 140px 20px 40px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 280px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+ul.links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+ul.links a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
+
+ul.links a:hover {
+  color: #2c3e50;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eaeaea;
+  margin-top: 50px;
+  
+}
+
+ul.links li:first-child a {
+  color: red;
+}
+
+ul.links li:nth-child(2) a {
+  font-style: italic;
+}
+
+.card::before {
+  content: "🌟 ";
+  color: orange;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-box {
+  float: left;
+  width: 45%;
+  margin: 2%;
+}
+
+
+.knopka {
+  display: inline-block;
+  padding: 1em;
+  font-size: 1rem;
+  width: 50%;
+  margin: 10px;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.knopka:hover {
+  background-color: #2c3e50;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
